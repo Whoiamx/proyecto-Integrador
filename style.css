@@ -1,0 +1,117 @@
+/* -------------------------- CONFIGURACION INICIAL ------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* --------------------- CONFIGURACION DEL DOCUMENTO CSS -------------------- */
+
+/* ------------------------------ VARIABLES CSS ----------------------------- */
+
+:root {
+  --colorVioleta: #232946;
+  --colorTitulo: #fffffe;
+  --colorParrafo: #b8c1ec;
+  --colorBotones: #eebbc3;
+  --colorSecundario: #d4d8f0;
+  --colorVioletaclaro: #dfe4fd;
+}
+
+/* ------------------------------ HEADER / NAV ------------------------------ */
+
+header {
+  background-color: var(--colorVioleta);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+
+.logo {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+header h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 45px;
+  list-style: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.nav-items a:hover {
+  color: #e39774;
+}
+
+#search-bar {
+  width: 500px;
+  height: 40px;
+  align-self: center;
+  border-radius: 5px;
+}
+
+/* ---------------------------------- BODY ---------------------------------- */
+body {
+  background-color: var(--colorParrafo);
+  color: var(--colorTitulo);
+}
+
+/* ------------------------------ SECTION HERO ------------------------------ */
+
+.section_hero {
+  display: flex;
+  background-color: ;
+  color: var(--colorVioleta);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  color: var(--colorVioleta);
+  gap: 40px;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+}
+
+#card-logo {
+  width: 300px;
+}
+.card-back {
+  background-color: var(--colorVioletaclaro);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* --------------------------------- FOOTER --------------------------------- */
