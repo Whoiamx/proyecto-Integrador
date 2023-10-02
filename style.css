@@ -12,18 +12,18 @@
 /* ------------------------------ VARIABLES CSS ----------------------------- */
 
 :root {
-  --colorVioleta: #232946;
+  --colorPrincipal: #232946;
   --colorTitulo: #fffffe;
   --colorParrafo: #b8c1ec;
   --colorBotones: #eebbc3;
   --colorSecundario: #d4d8f0;
-  --colorVioletaclaro: #dfe4fd;
+  --colorMasclaro: #dfe4fd;
 }
 
 /* ------------------------------ HEADER / NAV ------------------------------ */
 
 header {
-  background-color: var(--colorVioleta);
+  background-color: var(--colorPrincipal);
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -32,7 +32,7 @@ header {
 
 .logo {
   display: flex;
-  gap: 50px;
+  gap: 35px;
 }
 
 .navbar {
@@ -72,6 +72,11 @@ header h1 {
   border-radius: 5px;
 }
 
+#logo-page {
+  width: 100px;
+  height: 90px;
+}
+
 /* ---------------------------------- BODY ---------------------------------- */
 body {
   background-color: var(--colorParrafo);
@@ -82,10 +87,13 @@ body {
 
 .section_hero {
   display: flex;
-  background-color: ;
   color: var(--colorVioleta);
-  justify-content: space-between;
+  justify-content: center;
+  padding: 100px;
+  margin: 1rem;
+  gap: 100px;
   align-items: center;
+  max-width: 100%;
 }
 
 .hero-card {
@@ -96,11 +104,16 @@ body {
   padding: 10px;
   color: var(--colorVioleta);
   gap: 40px;
+  max-width: 50%;
 }
 
 #hero {
   display: flex;
   flex-direction: column;
+  max-width: 50%;
+  font-size: 1.5rem;
+  gap: 30px;
+  color: var(--colorPrincipal);
 }
 
 #card-logo {
@@ -112,6 +125,35 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 12px;
+  color: var(--colorPrincipal);
+}
+
+/* ----------------------------- SEGUNDA SECTION ---------------------------- */
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  font-size: 1.5rem;
+  color: var(--colorPrincipal);
+  gap: 40px;
+}
+
+.card-eco {
+  display: flex;
+  gap: 55px;
 }
 
 /* --------------------------------- FOOTER --------------------------------- */
+
+footer {
+  color: var(--colorSecundario);
+  background-color: var(--colorPrincipal);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
