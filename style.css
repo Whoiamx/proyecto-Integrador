@@ -116,6 +116,11 @@ body {
   color: var(--colorPrincipal);
 }
 
+#hero h2 {
+  font-weight: bold;
+  text-shadow: -1px 6px 4px rgba(0, 0, 0, 0.29);
+}
+
 #card-logo {
   width: 300px;
 }
@@ -144,16 +149,71 @@ body {
 
 .card-eco {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 55px;
+}
+
+.card-ec img {
+  width: 420px;
+  height: 320px;
+  border-radius: 10px;
+}
+
+.card-ec h4 {
+  font-size: 25px;
+}
+
+.card-ec p {
+  font-size: 20px;
+}
+
+/* ----------------------------- TERCERA SECCION ---------------------------- */
+
+.tercera-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tercera-section h4 {
+  font-size: 25px;
+}
+
+/* ----------------------------- CUARTA SECCION ----------------------------- */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--colorPrincipal);
+  gap: 10px;
+  color: var(--colorSecundario);
+  padding: 35px;
+}
+
+.contact-form input {
+  width: 900px;
+  border-radius: 8px;
+}
+
+.cuarta-seccion h5 {
+  font-size: 25px;
+}
+
+.contact-form button {
+  width: 90px;
 }
 
 /* --------------------------------- FOOTER --------------------------------- */
 
 footer {
   color: var(--colorSecundario);
-  background-color: var(--colorPrincipal);
+  background-color: var(--colorSecundario);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--colorPrincipal);
 }
