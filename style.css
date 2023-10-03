@@ -30,6 +30,10 @@ header {
   height: 100px;
 }
 
+#toggle-menu {
+  display: none;
+}
+
 .logo {
   display: flex;
   gap: 35px;
