@@ -30,6 +30,7 @@ header {
   height: 100px;
 }
 
+#menu-rsp,
 #toggle-menu {
   display: none;
 }
