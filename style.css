@@ -96,6 +96,17 @@ body {
   max-width: 100%;
 }
 
+.container-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--colorTitulo);
+  font-size: 17px;
+  text-align: center;
+  align-items: center;
+  background-color: var(--colorPrincipal);
+  border-radius: 10px;
+}
 .hero-card {
   display: flex;
   justify-content: center;
@@ -104,7 +115,8 @@ body {
   padding: 10px;
   color: var(--colorVioleta);
   gap: 40px;
-  max-width: 50%;
+  max-width: 88%;
+  border-radius: 10px;
 }
 
 #hero {
@@ -125,13 +137,28 @@ body {
   width: 300px;
 }
 .card-back {
-  background-color: var(--colorVioletaclaro);
+  background-color: var(--colorPrincipal);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 12px;
   color: var(--colorPrincipal);
+  background-color: #b8c1ec;
+}
+
+#shopyfuner {
+  background-color: var(--colorPrincipal);
+  text-decoration: none;
+  width: 240px;
+  border-radius: 10px;
+  text-align: center;
+  height: 40px;
+  color: var(--colorTitulo);
+}
+
+#shopyfuner:hover {
+  color: var(--colorParrafo);
 }
 
 /* ----------------------------- SEGUNDA SECTION ---------------------------- */
@@ -168,6 +195,17 @@ body {
   font-size: 20px;
 }
 
+#flecha-izq,
+#flecha-der {
+  background-color: var(--colorPrincipal);
+  color: var(--colorTitulo);
+  text-decoration: none;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
 /* ----------------------------- TERCERA SECCION ---------------------------- */
 
 .tercera-section {
@@ -189,7 +227,7 @@ body {
   width: 100%;
   background-color: var(--colorPrincipal);
   gap: 10px;
-  color: var(--colorSecundario);
+  color: var(--colorTitulo);
   padding: 35px;
 }
 
