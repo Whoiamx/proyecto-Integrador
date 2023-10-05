@@ -73,3 +73,8 @@ button {
   height: 30px;
   border-radius: 20px;
 }
+
+button {
+  color: white;
+  background-color: #242d3a;
+}
