@@ -79,6 +79,10 @@ header h1 {
   height: 90px;
 }
 
+#menu-rsp {
+  display: none;
+}
+
 /* ---------------------------------- BODY ---------------------------------- */
 body {
   background-color: var(--colorSubtitulo);
@@ -156,10 +160,12 @@ body {
   text-align: center;
   height: 45px;
   color: var(--colorTitulo);
+  font-size: 20px;
+  padding: 10px;
 }
 
 #shopyfuner:hover {
-  color: var(--colorParrafo);
+  color: red;
 }
 
 /* ----------------------------- CARDS IMG SECTION ---------------------------- */
