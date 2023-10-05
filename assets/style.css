@@ -225,6 +225,10 @@ body {
   border-radius: 45px;
 }
 
+.card__coment i {
+  font-size: 1rem;
+}
+
 /* ----------------------------- TERCERA SECCION ---------------------------- */
 
 .tercera-section {
@@ -252,6 +256,7 @@ body {
 
 .card__container {
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -308,4 +313,19 @@ footer {
   justify-content: center;
   align-items: center;
   color: var(--colorPrincipal);
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  height: 45px;
+}
+
+.links__items a {
+  text-decoration: none;
+  color: black;
+}
+
+.links__items {
+  list-style: none;
 }
