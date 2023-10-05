@@ -12,12 +12,9 @@
 /* ------------------------------ VARIABLES CSS ----------------------------- */
 
 :root {
-  --colorPrincipal: #232946;
+  --colorPrincipal: #242d3a;
   --colorTitulo: #fffffe;
-  --colorParrafo: #b8c1ec;
-  --colorBotones: #eebbc3;
-  --colorSecundario: #d4d8f0;
-  --colorMasclaro: #dfe4fd;
+  --colorSubtitulo: #e2e5e6;
 }
 
 /* ------------------------------ HEADER / NAV ------------------------------ */
@@ -67,7 +64,7 @@ header h1 {
 }
 
 .nav-items a:hover {
-  color: #e39774;
+  color: #c23530;
 }
 
 #search-bar {
@@ -84,7 +81,7 @@ header h1 {
 
 /* ---------------------------------- BODY ---------------------------------- */
 body {
-  background-color: var(--colorParrafo);
+  background-color: var(--colorSubtitulo);
   color: var(--colorTitulo);
 }
 
@@ -217,22 +214,39 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: var(--colorPrincipal);
+  padding: 50px;
+  margin: 80px;
+  gap: 90px;
 }
 
 .tercera-section h4 {
   font-size: 25px;
 }
 
+.card__container {
+  display: flex;
+}
+
+.instruction {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 /* ----------------------------- CUARTA SECCION ----------------------------- */
 
 .contact-form {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: var(--colorPrincipal);
   gap: 10px;
-  color: var(--colorTitulo);
+  color: var(--colorSubtitulo);
   padding: 35px;
+}
+
+.cuarta-seccion {
+  display: flex;
+  background-color: var(--colorPrincipal);
 }
 
 .contact-form input {
