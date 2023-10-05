@@ -98,10 +98,9 @@ body {
 
 .section_hero {
   display: flex;
-  color: var(--colorVioleta);
   justify-content: center;
   padding: 100px;
-  margin: 1rem;
+  background-color: var(--colorPrincipal);
   gap: 100px;
   align-items: center;
   max-width: 100%;
@@ -138,7 +137,7 @@ body {
   max-width: 50%;
   font-size: 1.5rem;
   gap: 30px;
-  color: var(--colorPrincipal);
+  color: var(--colorSubtitulo);
   margin: 150px;
 }
 
@@ -165,13 +164,13 @@ body {
 }
 
 #shopyfuner {
-  background-color: var(--colorPrincipal);
+  background-color: var(--colorTitulo);
   text-decoration: none;
   width: 240px;
   border-radius: 10px;
   text-align: center;
   height: 45px;
-  color: var(--colorTitulo);
+  color: var(--colorPrincipal);
   font-size: 20px;
   padding: 10px;
 }
