@@ -42,3 +42,26 @@ header {
   align-items: center;
   padding: 5px;
 }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.login-container,
+.sso-container {
+  color: #242d3a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  gap: 30px;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+}

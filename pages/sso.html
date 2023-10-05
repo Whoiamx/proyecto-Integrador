@@ -9,6 +9,14 @@
       href="/img/favicon-32x32.png"
       type="image/x-icon"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Sign in</title>
   </head>
   <body>
@@ -23,6 +31,18 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="sso-container">
+        <h1>Ingresa a tu cuenta</h1>
+        <form class="login__form" action="">
+          <label for="email-login">Email</label>
+          <input type="email" id="email-login" />
+          <label for="password-login">Password</label>
+          <input type="password" id="password-login" />
+          <a href="#">Olvidaste tu contrasena?</a>
+          <button>Ingresar a tu cuenta</button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>

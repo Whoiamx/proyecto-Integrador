@@ -9,6 +9,14 @@
       href="/img/favicon-32x32.png"
       type="image/x-icon"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>Crea tu cuenta</title>
   </head>
   <body>
@@ -23,6 +31,21 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <div class="login-container">
+        <h1>Crea tu cuenta</h1>
+        <form class="login__form" action="">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" />
+          <label for="surname">Apellido</label>
+          <input type="text" id="surname" />
+          <label for="email">Email</label>
+          <input type="email" id="email" />
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+          <button>Crear cuenta</button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
