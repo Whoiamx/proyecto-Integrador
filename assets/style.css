@@ -5,7 +5,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-  border: 5px solid red;
 }
 
 /* --------------------- CONFIGURACION DEL DOCUMENTO CSS -------------------- */
@@ -276,6 +275,7 @@ body {
   align-items: center;
   width: 1200px;
   height: 400px;
+  gap: 65px;
 }
 
 .instruction {
