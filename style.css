@@ -162,7 +162,7 @@ body {
   color: var(--colorParrafo);
 }
 
-/* ----------------------------- SEGUNDA SECTION ---------------------------- */
+/* ----------------------------- CARDS IMG SECTION ---------------------------- */
 
 .second-section {
   display: flex;
@@ -172,20 +172,20 @@ body {
   padding: 100px;
   font-size: 1.5rem;
   color: var(--colorPrincipal);
-  gap: 40px;
+  gap: 55px;
 }
 
 .card-eco {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 55px;
+  gap: 150px;
 }
 
-.card-ec img {
-  width: 420px;
-  height: 320px;
-  border-radius: 10px;
+.card-ec {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .card-ec h4 {
@@ -193,7 +193,7 @@ body {
 }
 
 .card-ec p {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #flecha-izq,
@@ -205,6 +205,18 @@ body {
   width: 40px;
   height: 40px;
   text-align: center;
+}
+.info-employer {
+  display: flex;
+  gap: 5px;
+}
+
+#employeer_one,
+#employeer_two,
+#employeer_three {
+  width: 70px;
+  height: 60px;
+  border-radius: 45px;
 }
 
 /* ----------------------------- TERCERA SECCION ---------------------------- */
@@ -220,32 +232,50 @@ body {
   gap: 90px;
 }
 
+.info-third {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
 .tercera-section h4 {
   font-size: 25px;
 }
 
 .card__container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .instruction {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 20px;
+}
+
+#upload_img,
+#send_img,
+#email_snd {
+  width: 30px;
 }
 /* ----------------------------- CUARTA SECCION ----------------------------- */
 
 .contact-form {
   display: flex;
   flex-direction: column;
-  width: 100%;
   gap: 10px;
   color: var(--colorSubtitulo);
-  padding: 35px;
 }
 
 .cuarta-seccion {
   display: flex;
+  justify-content: space-between;
+  padding: 45px;
   background-color: var(--colorPrincipal);
 }
 
