@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  border: 5px solid red;
 }
 
 /* --------------------- CONFIGURACION DEL DOCUMENTO CSS -------------------- */
@@ -271,9 +272,10 @@ body {
 
 .card__container {
   display: flex;
-  text-align: center;
   justify-content: center;
   align-items: center;
+  width: 1200px;
+  height: 400px;
 }
 
 .instruction {
@@ -281,7 +283,10 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 #upload_img,
