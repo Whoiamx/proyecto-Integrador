@@ -64,4 +64,12 @@ main {
 .login__form {
   display: flex;
   flex-direction: column;
+  gap: 5px;
+}
+
+input,
+button {
+  width: 500px;
+  height: 30px;
+  border-radius: 20px;
 }
