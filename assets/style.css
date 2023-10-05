@@ -35,6 +35,7 @@ header {
 .logo {
   display: flex;
   gap: 35px;
+  padding: 10px;
 }
 
 .navbar {
@@ -186,10 +187,11 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  padding: 50px;
   font-size: 1.5rem;
   color: var(--colorPrincipal);
   gap: 55px;
+  margin: 20px;
 }
 
 .card-eco {
@@ -249,7 +251,7 @@ body {
   align-items: center;
   color: var(--colorPrincipal);
   padding: 50px;
-  margin: 80px;
+  margin: 20px;
   gap: 90px;
 }
 
@@ -312,6 +314,7 @@ body {
 
 .contact-form input {
   width: 900px;
+  height: 30px;
   border-radius: 8px;
 }
 
@@ -320,7 +323,8 @@ body {
 }
 
 .contact-form button {
-  width: 90px;
+  width: 100px;
+  height: 35px;
 }
 
 /* --------------------------------- FOOTER --------------------------------- */
