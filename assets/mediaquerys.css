@@ -1,4 +1,4 @@
-/* ------------------------- RESOLUCION PARA TABLETS ------------------------ */
+/* ------------------------- RESOLUCION PARA TABLETS (IPAD MINI)------------------------ */
 
 @media (max-width: 768px) {
   #menu-rsp {
@@ -25,6 +25,41 @@
 
   .nav-items a {
     color: #242d3a;
+  }
+
+  .section_hero {
+    padding: 0;
+  }
+
+  .card__container {
+    padding: 100px;
+    gap: 90px;
+    margin: 20%;
+    flex-direction: column;
+  }
+
+  .card-ec {
+    padding-top: 40px;
+  }
+
+  .card-ec.three {
+    display: none;
+  }
+
+  .card-ec.two {
+    display: none;
+  }
+
+  .cuarta-seccion {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .contact-form input {
+    width: 650px;
+    height: 20px;
+    border-radius: 8px;
   }
 }
 
