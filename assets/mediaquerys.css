@@ -12,15 +12,16 @@
 
   .nav-items {
     position: absolute;
-    top: 65px;
+    top: 100px;
     width: 90%;
-    left: 80%;
+    left: 50%;
     right: 80%;
     flex-direction: column;
     background-color: white;
     border: 2px solid #242d3a;
     border-radius: 0 0 15px 15px;
     display: none;
+    padding: 5px;
   }
 
   .nav-items a {
@@ -63,4 +64,37 @@
   }
 }
 
-/* ------------------------ RESOLUCION PARA CELULARES ----------------------- */
+/* ------------------------ RESOLUCION PARA CELULARES (iPhone 11) ----------------------- */
+
+@media (max-width: 415px) {
+  .contact__info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .contact-form input {
+    width: 350px;
+    height: 40px;
+    gap: 30px;
+    border-radius: 8px;
+  }
+
+  #menu-rsp {
+    display: flex;
+    order: 2;
+  }
+
+  #toggle-menu:checked + .nav-items {
+    display: flex;
+  }
+
+  .nav-items {
+    top: 100px;
+    width: 90%;
+    left: 50%;
+    right: 50%;
+    padding: 10px;
+    border: 1px solid #242d3a;
+  }
+}
