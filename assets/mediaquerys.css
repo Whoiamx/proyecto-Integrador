@@ -159,4 +159,8 @@
     width: fit-content;
     height: fit-content;
   }
+
+  .instruction p {
+    display: none;
+  }
 }
