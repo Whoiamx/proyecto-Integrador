@@ -318,6 +318,12 @@ body {
   height: 35px;
 }
 
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 /* --------------------------------- FOOTER --------------------------------- */
 
 footer {
