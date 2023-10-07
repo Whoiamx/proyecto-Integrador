@@ -24,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 102px;
+  height: 85px;
   position: fixed;
   margin-top: -20px;
 }
@@ -79,7 +79,7 @@ header h1 {
 
 #logo-page {
   width: 100px;
-  height: 90px;
+  height: 70px;
 }
 
 #menu-rsp {
