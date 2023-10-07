@@ -24,7 +24,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  height: 85px;
+  height: 80px;
   position: fixed;
   margin-top: -20px;
 }
@@ -70,16 +70,10 @@ header h1 {
   color: #c23530;
 }
 
-#search-bar {
-  width: 500px;
-  height: 40px;
-  align-self: center;
-  border-radius: 5px;
-}
-
 #logo-page {
   width: 100px;
-  height: 70px;
+  height: 55px;
+  margin: 8px;
 }
 
 #menu-rsp {
