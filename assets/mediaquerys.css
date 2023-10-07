@@ -142,4 +142,21 @@
   .card__coment i {
     font-size: 15px;
   }
+
+  .contact-form input {
+    width: 305px;
+  }
+
+  #logo-page {
+    height: 72px;
+  }
+
+  .card-eco {
+    gap: 15px;
+  }
+
+  .card__container {
+    width: fit-content;
+    height: fit-content;
+  }
 }
