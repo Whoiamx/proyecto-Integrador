@@ -113,3 +113,7 @@ input,
 button {
   width: 310px;
 }
+
+.sso-container {
+  margin-top: 50px;
+}

@@ -139,11 +139,16 @@
   }
 
   .instruction {
-    width: 100%;
+    width: 50px;
   }
+
+  /* * {
+    border: 1px solid red;
+  } */
 
   .instruction h4 {
     font-size: 20px;
+    width: 320px;
   }
 
   .instruction p {
@@ -168,7 +173,7 @@
   }
 
   #logo-page {
-    height: 60px;
+    height: 50px;
   }
 
   .card-eco {
@@ -177,10 +182,15 @@
 
   .card__container {
     width: fit-content;
-    height: fit-content;
   }
 
   .instruction p {
     display: none;
+  }
+
+  .logo {
+    display: flex;
+    text-align: center;
+    gap: 0;
   }
 }
