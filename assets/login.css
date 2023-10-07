@@ -78,3 +78,38 @@ button {
   color: white;
   background-color: #242d3a;
 }
+
+/* -------------------- ARREGLO RESPONSIVE PARA IPHONE 11 ------------------- */
+
+#logo-page {
+  width: 40px;
+}
+
+#user-img {
+  display: none;
+}
+
+.container_header {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.login-container {
+  margin-top: 50px;
+}
+
+.login__form {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.login__form label {
+  align-self: flex-start;
+}
+
+input,
+button {
+  width: 310px;
+}

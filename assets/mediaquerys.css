@@ -90,12 +90,32 @@
   }
 
   .nav-items {
-    top: 100px;
+    top: 78px;
     width: 90%;
     left: 50%;
     right: 50%;
     padding: 10px;
     border: 1px solid #242d3a;
+  }
+  .second-section h3 {
+    font-size: 1.5rem;
+  }
+  #about {
+    padding: 50px;
+    margin-top: -100px;
+    margin-bottom: -25px;
+  }
+
+  #hero h1 {
+    width: 320px;
+  }
+
+  #hero p {
+    width: 320px;
+  }
+
+  #about-us p {
+    width: 320px;
   }
 
   .section_hero {
@@ -119,7 +139,7 @@
   }
 
   .instruction {
-    width: 30%;
+    width: 100%;
   }
 
   .instruction h4 {
@@ -148,7 +168,7 @@
   }
 
   #logo-page {
-    height: 72px;
+    height: 60px;
   }
 
   .card-eco {
