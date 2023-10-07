@@ -97,4 +97,49 @@
     padding: 10px;
     border: 1px solid #242d3a;
   }
+
+  .section_hero {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  #hero p {
+    font-size: 16px;
+  }
+
+  #shopyfuner {
+    width: 240px;
+    height: 45px;
+    font-size: 18px;
+  }
+
+  footer {
+    font-size: 12px;
+    display: flex;
+  }
+
+  .instruction {
+    width: 30%;
+  }
+
+  .instruction h4 {
+    font-size: 20px;
+  }
+
+  .instruction p {
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+
+  .info-employertwo p {
+    font-size: 15px;
+  }
+
+  .info-employertwo h4 {
+    font-size: 20px;
+  }
+
+  .card__coment i {
+    font-size: 15px;
+  }
 }
