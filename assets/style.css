@@ -46,6 +46,12 @@
   animation: slide-left 1.2s cubic-bezier(0.645, 0.045, 0.355, 1) reverse;
 }
 
+span {
+  background: linear-gradient(#373b44, #4286f4);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 /* ------------------------------ HEADER / NAV ------------------------------ */
 
 header {
