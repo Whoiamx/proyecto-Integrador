@@ -17,6 +17,35 @@
   --colorSubtitulo: #e2e5e6;
 }
 
+/* ------------------------------- ANIMACIONES ------------------------------ */
+
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-100px);
+    transform: translateX(-100px);
+  }
+}
+
+.slide-left {
+  -webkit-animation: slide-left 1.2s cubic-bezier(0.645, 0.045, 0.355, 1)
+    reverse;
+  animation: slide-left 1.2s cubic-bezier(0.645, 0.045, 0.355, 1) reverse;
+}
+
 /* ------------------------------ HEADER / NAV ------------------------------ */
 
 header {
@@ -277,7 +306,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 20px;
+  gap: 30px;
   width: 50%;
   height: 50%;
 }
