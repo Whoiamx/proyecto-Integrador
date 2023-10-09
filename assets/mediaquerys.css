@@ -217,4 +217,8 @@
     text-align: center;
     padding: 10px;
   }
+
+  .card-eco {
+    margin-bottom: 70px;
+  }
 }
