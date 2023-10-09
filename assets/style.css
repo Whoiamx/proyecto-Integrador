@@ -19,37 +19,72 @@
 
 /* ------------------------------- ANIMACIONES ------------------------------ */
 
-@-webkit-keyframes slide-left {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
-  }
-}
-@keyframes slide-left {
-  0% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  100% {
-    -webkit-transform: translateX(-100px);
-    transform: translateX(-100px);
-  }
-}
-
-.slide-left {
-  -webkit-animation: slide-left 1.2s cubic-bezier(0.645, 0.045, 0.355, 1)
-    reverse;
-  animation: slide-left 1.2s cubic-bezier(0.645, 0.045, 0.355, 1) reverse;
-}
+/* ------------------------------ DEGRADE DE IA ----------------------------- */
 
 span {
   background: linear-gradient(#373b44, #4286f4);
   -webkit-background-clip: text;
   color: transparent;
+}
+
+/* ---------------------- ANIMACION DE ANCOR "UNETE YA" --------------------- */
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+    transform: translate(0);
+  }
+}
+
+.vibrate-1 {
+  -webkit-animation: vibrate-1 0.6s linear infinite both;
+  animation: vibrate-1 0.6s linear infinite both;
 }
 
 /* ------------------------------ HEADER / NAV ------------------------------ */
