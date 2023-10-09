@@ -11,12 +11,16 @@
   }
 
   .logo {
-    justify-content: space-between;
     width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .logo h1 {
     margin-top: 15px;
+    padding: 30px;
+    text-align: center;
   }
 
   .nav-items {
@@ -195,17 +199,22 @@
   }
 
   .instruction p {
-    /* display: none; */
     width: 20px;
-  }
-
-  .logo {
-    text-align: center;
-    width: 20%;
-    padding: 15px;
   }
 
   .info-third {
     text-align: center;
+  }
+
+  .logo {
+    margin: 0;
+    text-align: center;
+    width: 30%;
+  }
+
+  .logo h1 {
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
   }
 }
