@@ -37,9 +37,6 @@
     padding: 5px;
   }
 
-  .vibrate-1 {
-    animation: none;
-  }
   .nav-items a {
     color: #242d3a;
   }
@@ -196,7 +193,7 @@
   }
 
   .card-eco {
-    gap: 15px;
+    gap: 2.5px;
   }
 
   .card__container {
@@ -225,5 +222,34 @@
 
   .card-eco {
     margin-bottom: 70px;
+  }
+
+  .features__card {
+    flex-direction: column;
+  }
+
+  .container__features {
+    text-align: center;
+  }
+
+  .one {
+    height: 288px;
+  }
+  .info-employer {
+    background-color: #242d3a;
+    color: white;
+    height: 150px;
+    width: 290px;
+    border: 2px solid #242d3a;
+  }
+
+  .container__features p {
+    font-size: 1rem;
+  }
+
+  .feature__cv p,
+  .feature__entrevistas p,
+  .feature__linkedin p {
+    font-size: 0.9rem;
   }
 }
