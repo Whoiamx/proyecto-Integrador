@@ -262,7 +262,7 @@ body {
 #employeer_one,
 #employeer_two,
 #employeer_three {
-  width: 40px;
+  width: 4 0px;
   height: 40px;
   border-radius: 40px;
 }
@@ -307,7 +307,7 @@ body {
   align-items: center;
   width: 1200px;
   height: 400px;
-  gap: 65px;
+  gap: 32px;
 }
 
 .instruction {
