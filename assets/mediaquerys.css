@@ -243,6 +243,11 @@
     border: 2px solid #242d3a;
   }
 
+  .features {
+    padding-top: 170px;
+    padding-bottom: 120px;
+  }
+
   .container__features p {
     font-size: 1rem;
   }
