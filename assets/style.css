@@ -109,6 +109,7 @@ body {
   gap: 100px;
   align-items: center;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 .container-hero {
@@ -195,20 +196,27 @@ body {
   font-size: 1.5rem;
   color: var(--colorPrincipal);
   gap: 55px;
-  margin: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .card-eco {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 150px;
+  gap: 100px;
 }
 
 .card-ec {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  justify-content: center;
+  gap: 35px;
+  border: 10px solid var(--colorPrincipal);
+  border-radius: 12px;
+  height: 190px;
+  width: 400px;
+  padding: 10px;
 }
 
 .card-ec h4 {
@@ -217,6 +225,12 @@ body {
 
 .card-ec p {
   font-size: 18px;
+}
+
+.card-ec.one,
+.card-ec.two,
+.card-ec.three {
+  background-color: white;
 }
 
 #flecha-izq,
@@ -255,7 +269,8 @@ body {
   align-items: center;
   color: var(--colorPrincipal);
   padding: 50px;
-  margin: 20px;
+  margin: auto;
+  max-width: 1200px;
   gap: 90px;
 }
 
@@ -314,6 +329,8 @@ body {
   justify-content: space-between;
   padding: 45px;
   background-color: var(--colorPrincipal);
+  margin: 0 auto;
+  max-width: 100%;
 }
 
 .contact-form input {
