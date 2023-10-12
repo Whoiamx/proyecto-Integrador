@@ -145,6 +145,7 @@ body {
   gap: 30px;
   color: var(--colorSubtitulo);
   margin: 150px;
+  text-align: center;
 }
 
 #hero h1 {
