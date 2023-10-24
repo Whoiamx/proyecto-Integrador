@@ -335,7 +335,7 @@ body {
 
 .cuarta-seccion {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 35px;
   background-color: var(--colorPrincipal);
   margin: 0 auto;
@@ -343,7 +343,7 @@ body {
 }
 
 .contact-form input {
-  width: 300px;
+  width: 500px;
   height: 30px;
   border-radius: 8px;
 }
