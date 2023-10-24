@@ -88,10 +88,9 @@
     height: 20vh;
   }
   .info-employer {
-    background-color: #242d3a;
     color: white;
     height: 150px;
-    /* width: 290px; */
+
     border: 2px solid #242d3a;
   }
   #flecha-der,
@@ -255,7 +254,6 @@
   }
 
   .info-employer {
-    background-color: #242d3a;
     color: white;
     height: 150px;
     width: 250px;
