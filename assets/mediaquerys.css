@@ -45,10 +45,6 @@
     padding: 0;
   }
 
-  .card-ec {
-    padding-top: 40px;
-  }
-
   .card-ec.three {
     display: none;
   }
@@ -89,7 +85,7 @@
   }
 
   .one {
-    height: 288px;
+    height: 20vh;
   }
   .info-employer {
     background-color: #242d3a;
@@ -255,8 +251,9 @@
   }
 
   .one {
-    height: 288px;
+    height: 20vh;
   }
+
   .info-employer {
     background-color: #242d3a;
     color: white;

@@ -12,7 +12,7 @@
 /* ------------------------------ VARIABLES CSS ----------------------------- */
 
 :root {
-  --colorPrincipal: rgb(36, 45, 58);
+  --colorPrincipal: #242d3a;
   --colorTitulo: #fffffe;
   --colorSubtitulo: #e2e5e6;
 }
@@ -213,15 +213,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 45px;
+
   border: 8px solid var(--colorPrincipal);
   border-radius: 10px;
   height: 150px;
   width: 30vh;
+  color: var(--colorSubtitulo);
 }
 
 .info-employer {
-  background-color: var(--colorPrincipal);
   color: var(--colorTitulo);
   height: 400px;
   display: flex;
@@ -241,7 +241,7 @@ body {
 .card-ec.one,
 .card-ec.two,
 .card-ec.three {
-  background-color: white;
+  background-color: var(--colorPrincipal);
 }
 
 #flecha-izq,
@@ -261,6 +261,13 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 40px;
+}
+
+.card__coment {
+  background-color: var(--colorSubtitulo);
+  color: var(--colorPrincipal);
+  border-radius: 8px;
+  padding: 8px;
 }
 
 /* ----------------------------- TERCERA SECCION ---------------------------- */
