@@ -12,21 +12,17 @@
 /* ------------------------------ VARIABLES CSS ----------------------------- */
 
 :root {
-  --colorPrincipal: #242d3a;
+  --colorPrincipal: rgb(36, 45, 58);
   --colorTitulo: #fffffe;
   --colorSubtitulo: #e2e5e6;
 }
 
-/* ------------------------------- ANIMACIONES ------------------------------ */
-
 /* ------------------------------ DEGRADE DE IA ----------------------------- */
 
 span {
-  background: linear-gradient(#373b44, #4286f4);
-  -webkit-background-clip: text;
-  color: transparent;
+  color: rgb(36, 45, 58);
+  text-shadow: 3px 3px 3px #fff;
 }
-
 /* ------------------------------ HEADER / NAV ------------------------------ */
 
 header {
@@ -110,6 +106,10 @@ body {
   align-items: center;
   max-width: 100%;
   margin: 0 auto;
+  background-image: url(/1.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .container-hero {
@@ -142,8 +142,9 @@ body {
   align-items: center;
   max-width: 50%;
   font-size: 1.5rem;
-  gap: 30px;
-  color: var(--colorSubtitulo);
+  gap: 90px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1);
   margin: 150px;
   text-align: center;
 }
@@ -153,7 +154,7 @@ body {
 }
 
 #hero p {
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 #card-logo {
