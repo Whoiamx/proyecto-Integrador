@@ -90,9 +90,8 @@
   .info-employer {
     color: white;
     height: 150px;
-
-    border: 2px solid #242d3a;
   }
+
   #flecha-der,
   #flecha-izq {
     display: none;
@@ -257,7 +256,6 @@
     color: white;
     height: 150px;
     width: 250px;
-    border: 2px solid #242d3a;
   }
 
   .container__features p {
