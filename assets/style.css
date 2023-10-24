@@ -206,7 +206,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 52px;
+  gap: 5px;
 }
 
 .card-ec {
@@ -217,7 +217,7 @@ body {
   border: 8px solid var(--colorPrincipal);
   border-radius: 10px;
   height: 150px;
-  width: 300px;
+  width: 30vh;
 }
 
 .info-employer {
@@ -227,7 +227,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 290px;
+  gap: 5px;
 }
 
 .card-ec h4 {
@@ -254,21 +254,13 @@ body {
   height: 40px;
   text-align: center;
 }
-.info-employer {
-  display: flex;
-  gap: 5px;
-}
 
 #employeer_one,
 #employeer_two,
 #employeer_three {
-  width: 4 0px;
+  width: 40px;
   height: 40px;
   border-radius: 40px;
-}
-
-.card__coment {
-  padding: 5px;
 }
 
 /* ----------------------------- TERCERA SECCION ---------------------------- */
@@ -305,7 +297,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1200px;
+  max-width: 1200px;
   height: 400px;
   gap: 32px;
 }
@@ -316,7 +308,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 30px;
   width: 50%;
   height: 50%;
 }
@@ -338,14 +329,14 @@ body {
 .cuarta-seccion {
   display: flex;
   justify-content: space-between;
-  padding: 45px;
+  padding: 35px;
   background-color: var(--colorPrincipal);
   margin: 0 auto;
   max-width: 100%;
 }
 
 .contact-form input {
-  width: 900px;
+  width: 300px;
   height: 30px;
   border-radius: 8px;
 }

@@ -1,6 +1,6 @@
 /* ------------------------- RESOLUCION PARA TABLETS (IPAD MINI)------------------------ */
 
-@media (max-width: 768px) {
+@media (max-width: 897px) {
   #menu-rsp {
     display: flex;
     order: 2;
@@ -63,6 +63,10 @@
     padding: 20px;
   }
 
+  #contact {
+    flex-direction: column;
+  }
+
   .contact-form input {
     width: 650px;
     height: 20px;
@@ -73,6 +77,9 @@
     max-width: 700px;
   }
 
+  .instruction {
+    width: 200px;
+  }
   .container__features {
     gap: 20px;
   }
@@ -88,14 +95,18 @@
     background-color: #242d3a;
     color: white;
     height: 150px;
-    width: 290px;
+    /* width: 290px; */
     border: 2px solid #242d3a;
+  }
+  #flecha-der,
+  #flecha-izq {
+    display: none;
   }
 }
 
 /* ------------------------ RESOLUCION PARA CELULARES (iPhone 11) ----------------------- */
 
-@media (max-width: 415px) {
+@media (max-width: 687px) {
   .contact__info {
     display: flex;
     flex-direction: column;
@@ -170,7 +181,7 @@
   }
 
   .instruction {
-    width: 50px;
+    width: 10px;
   }
 
   .instruction h4 {
@@ -250,7 +261,7 @@
     background-color: #242d3a;
     color: white;
     height: 150px;
-    width: 290px;
+    width: 250px;
     border: 2px solid #242d3a;
   }
 
